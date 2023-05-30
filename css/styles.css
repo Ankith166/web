@@ -1,0 +1,169 @@
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3 rem;
+    line-height:1.5;
+}
+body{
+    font-family:'Roboto Mono', sans-serif ;
+}
+h2{
+    font-family: 'Monsterrat-Bold';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.container-fluid
+{
+    padding : 3% 15%;
+}
+
+.navbar
+{
+    padding:0 0 5rem 0;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-item
+{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+.download-button
+{
+    margin:5% 3% 5% 0%;
+}
+.title-image
+{
+    width:60%;
+    transform:rotate(25deg);
+  position: relative;
+  margin-left: 100px;
+    
+}
+@media (max-width:1028px)
+{
+    .title-image{
+        position:static;transform: rotate(0deg);
+
+    }
+    #title{
+        text-align: center;
+    }
+    #features
+    {
+        top:150px;
+    }
+}
+.heading
+{
+    font-family: 'Montserrat-bold';
+    font-weight: bold;
+    font-size: 2rem;
+}
+#features
+{  
+    padding: 7% 15%;
+    background-color: #fff;
+   position: relative;
+   bottom:150px;
+   
+}
+
+.icon
+{   
+    color:#ef8172;
+    margin-bottom: 7px;
+}
+
+.column{
+    text-align: center;
+    padding:5%;
+}
+.icon:hover
+{
+    color:#ff4c68;
+}
+#testimonials
+{
+    
+    text-align: center;
+    background-color:#ef8172 ;
+    color:#fff;
+}
+
+.testimonial-image
+{
+    width:10%;
+    border-radius:100%;margin:20px;
+
+}
+#press
+{
+    background-color:#ef8172 ;
+    padding-bottom: 3%;text-align: center;
+}
+.press-images
+{
+    width:15%;
+    margin:20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+#pricing
+{
+  
+    padding:100px;
+}
+.btnp
+{
+    width:100%;
+    
+}
+.pricing-col
+{
+    padding : 3% 5%;
+}
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:7% 15%;
+}
+.cta-title
+{
+    font-family: "Monsterrat-Black";
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bold;
+   
+}
+.cta-button
+{
+    margin: 30px ;
+}
+#footer
+{
+    text-align: center;
+    padding: 50px;
+}
+.fbutton
+{
+    padding:0px 5px;
+}
